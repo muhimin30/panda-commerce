@@ -1,0 +1,57 @@
+.navbar{
+    background: #fff;
+}
+
+.carousel{
+    background: #FBEBE9;
+    border-radius: 10px;
+}
+.row{
+    padding: 20px 40px;
+}
+.banner-text h1{
+    color:#1f1f1f;
+    font-size: 41px;
+}
+.banner-text span{
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+    color: #ff136f;
+    font-size: 25px;
+    font-weight: bold;
+}
+.buyNow-btn{
+    background: #ff136f;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #ff136f;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.buyNow-btn:hover{
+    background-color: #fff;
+    color: #ff136f;
+}
+.categories h3{
+    margin: 40px 0px;
+    color: #1f1f1f;
+}
+.cat-row{
+    padding: 0;
+}
+.col1,.col2,.col3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+.col1{
+    background-image: linear-gradient(to right,#ff9c35,#ffd019);
+}
+.col2{
+    background-image: linear-gradient(to right,#ff589b,#ff136f);
+}
+.col3{
+    background-image: linear-gradient(to right,#4289ff,#3f07f8);
+}
