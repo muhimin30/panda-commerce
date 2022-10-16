@@ -1,3 +1,6 @@
+.container{
+    padding: 10px 0px;
+}
 .navbar{
     background: #fff;
 }
@@ -34,11 +37,24 @@
     background-color: #fff;
     color: #ff136f;
 }
-.categories h3{
+.box-title{
     margin: 40px 0px;
     color: #1f1f1f;
 }
-.cat-row{
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.see-all{
+    color: #FEA517;
+    font-size: 22px;
+    text-decoration: none;
+}
+.see-all:hover{
+    color: #FEA517;
+}
+.cat-row,.shoes-row{
     padding: 0;
 }
 .col1,.col2,.col3{
@@ -54,4 +70,72 @@
 }
 .col3{
     background-image: linear-gradient(to right,#4289ff,#3f07f8);
+}
+.shoesNbags{
+    background-color: #F8F8F8;
+}
+.card-btn{
+    background: #000;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin: 20px 0px;
+}
+.card-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.card-body{
+    text-align: center;
+    padding: 50px 20px;
+}
+.card-body h5{
+    font-size: 24px;
+    color: #1f1f1f;
+    margin: 20px 0;
+}
+.card-body p{
+    font-size: 16px;
+    color: #707070;
+}
+.card{
+    border: none;
+    box-shadow: 5px 10px 10px gray;
+}
+.subscribe-box{
+    display: flex;
+    padding: 50px 0;
+    margin: 50px 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #feeae9;
+    border-radius: 10px;
+}
+.input-group{
+    width: 50%;
+}
+.form-control{
+    border: none;
+}
+.btn{
+    border: none;
+    padding: 0.5rem 1.5rem;
+    background: #ff589b;
+    color: #fff;
+}
+.btn:hover{
+    background: #ff589b;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.btn:focus{
+    box-shadow: none;
 }
